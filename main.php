@@ -7,9 +7,6 @@
  */
 require_once 'VuforiaClient.php';
 
-//new PostNewTarget();
-
-
 $handle = fopen('data.csv', 'r');
 if ($handle === false) {
     exit('Unable to open file handle');
